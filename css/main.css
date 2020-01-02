@@ -1,0 +1,111 @@
+
+.CV {
+  height: auto;
+  margin: auto;
+  position: relative;
+  width: 1100px;
+  font-family: Ubuntu;
+  font-style: bold;
+  color: #636A6B;
+}
+h2 {
+  background-color: lightgray;
+  text-align: center;
+  color: #636A6B;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+h3 {
+  margin-left: 10px
+}
+p {
+  margin-left: 5px;
+}
+h1 {
+  font-size: 60px;
+  color: #2A6099;
+}
+button {
+ background-color: #2A6099; /* Blue */
+ border: none;
+ color: white;
+ padding: 15px 32px;
+ margin: 2px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 20px;
+}
+/*en tête*/
+.header{
+  position: relative;
+  height: 260px;
+  width: auto;
+  background-color: lightgray;
+  border-top-left-radius: 130px;
+  border-bottom-left-radius: 130px;
+}
+.header div{
+  display: inline-block;
+  float: left;
+  text-align: center;
+}
+.header .logo {
+  height: inherit;
+  width: 260px;
+}
+.logo img {
+  margin: auto;
+  margin-top: 20px;
+}
+#information1 {
+  width: 500px;
+  height: inherit;
+}
+#information1 span{
+  font-size: 30px;
+}
+#information2 {
+  width: 300px;
+  height: inherit;
+  float: right;
+}
+#information2 div{
+  height: 120px;
+  width: inherit;
+  padding-top: 30px;
+}
+#information2 span{
+  font-size: 40px;
+}
+
+/*contenu*/
+.content{
+  position: relative;
+  width: 1100px;
+}
+.content div {
+  margin: 10px;
+  border: solid 3px;
+  border-color: #2A6099;
+}
+.content .left-row {
+  display: inline-block;
+  float: left;
+  width: 570px;
+  background-color:
+}
+.content .right-row {
+  display: inline-block;
+  float: right;
+  width: 470px;
+}
+.blue {
+  background-color: #2A6099;
+  color: white
+}
+#objective {
+  text-align: center;
+}
