@@ -1,3 +1,4 @@
+/* général */
 
 .CV {
   height: auto;
@@ -8,37 +9,31 @@
   font-style: bold;
   color: #636A6B;
 }
+h1 {
+  font-size: 60px;
+  color: #2A6099;
+}
 h2 {
   background-color: lightgray;
   text-align: center;
   color: #636A6B;
 }
-a {
-  text-decoration: none;
-  color: inherit;
-}
 h3 {
   margin-left: 10px
 }
 p {
+  font-size: 16px;
   margin-left: 5px;
 }
-h1 {
-  font-size: 60px;
-  color: #2A6099;
+a {
+  text-decoration: none;
+  color: inherit;
 }
-button {
- background-color: #2A6099; /* Blue */
- border: none;
- color: white;
- padding: 15px 32px;
- margin: 2px;
- text-align: center;
- text-decoration: none;
- display: inline-block;
- font-size: 20px;
+a:hover {
+  font-weight: bold;
 }
-/*en tête*/
+
+/* en tête */
 .header{
   position: relative;
   height: 260px;
@@ -76,9 +71,7 @@ button {
   height: 120px;
   width: inherit;
   padding-top: 30px;
-}
-#information2 span{
-  font-size: 40px;
+  font-size: 2.5rem;
 }
 
 /*contenu*/
@@ -86,26 +79,51 @@ button {
   position: relative;
   width: 1100px;
 }
-.content div {
-  margin: 10px;
+#objective {
+  text-align: center;
+}
+.left-row {
+  display: inline-block;
+  float: left;
+  width: 600px;
+}
+.right-row {
+  display: inline-block;
+  float: right;
+  width: 478px;
+}
+.card {
   border: solid 3px;
   border-color: #2A6099;
 }
-.content .left-row {
-  display: inline-block;
-  float: left;
-  width: 570px;
-  background-color:
+.m-10px {
+  margin: 10px;
 }
-.content .right-row {
-  display: inline-block;
-  float: right;
-  width: 470px;
+.my-10px {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.ml-10px {
+  margin-left: 10px;
 }
 .blue {
   background-color: #2A6099;
   color: white
 }
-#objective {
+.comp {
+  background-color: #2A6099;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  margin: 2px;
   text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.3rem;
+}
+.comp:hover {
+  background-color: #636A6B;
+  border-radius: 10px;
+  font-size: 1.6rem;
+  padding: 12px 18px;
 }
