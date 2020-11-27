@@ -31,6 +31,7 @@ a {
 }
 a:hover {
   font-weight: bold;
+  size:110%
 }
 
 /* en tête */
@@ -68,9 +69,9 @@ a:hover {
   float: right;
 }
 #information2 div{
-  height: 120px;
+  margin-top: 0px;
   width: inherit;
-  padding-top: 30px;
+  padding-top: 25px;
   font-size: 2.5rem;
 }
 
@@ -81,6 +82,9 @@ a:hover {
 }
 #objective {
   text-align: center;
+}
+#competences {
+  padding-bottom: 26px;
 }
 .left-row {
   display: inline-block;
@@ -99,12 +103,16 @@ a:hover {
 .m-10px {
   margin: 10px;
 }
+
 .my-10px {
   margin-top: 10px;
   margin-bottom: 10px;
 }
 .ml-10px {
   margin-left: 10px;
+}
+.mt-30px {
+  margin-top: 30px;
 }
 .blue {
   background-color: #2A6099;
